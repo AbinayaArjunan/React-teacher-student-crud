@@ -32,7 +32,7 @@ export const DataProvider = ({ children }) => {
 
 
     const [style, setStyle] = useState(
-        "navbar-nav  bg-gradient-   sidebar sidebar-dark accordion"
+        "navbar-nav  bg-gradient-black   sidebar sidebar-dark accordion"
     );
 
     const Changestyle = () => {
