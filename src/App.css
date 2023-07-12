@@ -1,38 +1,49 @@
+.toggled {
+  overflow: visible;
+  width: 6.5rem !important;
+}
+
+.toggled1 {
+  width: 0 !important;
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+.sidebar-icon {
+  width: 20px;
+  margin-right: 5px;
+  color: rgba(253, 105, 105, 0.765);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.user-account-icon {
+  margin-right: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sidebar-brand {
+  background-color: #8d0954;
+  background-image: linear-gradient(225deg,
+      #ff3cac 10%,
+      #9645dd 50%,
+      #085992 90%);
 }
 
-.App-link {
-  color: #61dafb;
+.right-arrow {
+  margin-left: 10px;
+  color: rgba(0, 255, 255, 0.781);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (min-width: 320px) and (max-width: 728px) {
+  .right-arrow {
+    display: none;
   }
 }

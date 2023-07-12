@@ -1,0 +1,21 @@
+{
+    "student": [
+        {
+            "id": 1,
+            "name": "Abinaya",
+            "fathername": "arjunan",
+            "batch": "47",
+            "address": "Dindigul",
+            "course":"MERN STACK"
+        }
+    ],
+    "teacher": [
+        {
+            "id": 1,
+            "name": "raj",
+            "emailid": "peter2000@gmail.com",
+            "address": "Chennai",
+            "course":"MERN STACK"
+        }
+    ]
+}
